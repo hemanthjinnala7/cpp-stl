@@ -1,0 +1,138 @@
+vector <int> arr(5(size),10(elements);
+
+for(auto x:arr){
+        cout<<x<<" ";
+    }
+
+
+initiliaze array to an vector
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int ar[]={1,2,3,4,5};
+    int len;
+    len = end(ar)-begin(ar);
+    vector <int> arr(len);
+    for (int i =0 ;i<=len;i++)
+    {
+        arr[i]=ar[i];
+    }
+    for (auto x:arr)
+    {
+        cout<<x<<" ";
+    }
+    
+    
+    
+}
+
+
+
+
+
+
+FIND FUNC IN C++
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int n =5;
+    int arr[n]={1,2,3,4,5};
+    int key;
+    cin>>key;
+    auto id = find(arr,arr+n,key);
+    int index= id-arr;
+    cout<<index;
+    
+    }
+
+this works on 0(1)..............................................
+
+
+// Online C++ compiler to run C++ program online
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int n =5;
+    int arr[n]={1,2,3,4,5};
+    int key;
+    cin>>key;
+    bool yes=binary_search(arr,arr+n,key);
+    //binary search for sorted array
+    cout<<yes;
+    
+    }
+
+'======================================================
+
+//LOWER BOUND
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int n =5;
+    int arr[n]={1,2,3,4,5};
+    int key;
+    cin>>key;
+    int *ind = lower_bound(arr,arr+n,key);
+    //if element presents it outputs index otherwise it gives lastindex+1 as output
+    cout << ind-arr;
+    
+    
+    }
+
+===========================================================
+//UPPER BOUND
+//LOWER BOUND
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int n =5;
+    int arr[n]={1,2,3,4,5};
+    int key;
+    cin>>key;
+    int *ind = upper_bound(arr,arr+n,key);
+    //if the element presents the output of next greater element will appear others lasteleind+1 will appear
+    cout << ind-arr;
+    
+    
+    }
+=================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
