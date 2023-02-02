@@ -1,1 +1,32 @@
+//printing 1to n
+#include <iostream>
+using namespace std;
 
+void print(int i,int num){
+    if (i>num) return; // base case
+    cout<<i<<" ";
+    print(i+1,num);}// recursive call
+int main(){
+    int a;
+    cin>>a;
+    print(1,a);//function call
+    
+}
+
+=======================================================================================================================================================================
+
+
+PRINTING N T0 1
+#include <iostream>
+using namespace std;
+
+void print(int i){
+    if (i<=0) return; // base case
+    cout<<i<<" ";
+    print(i-1);}// recursive call
+int main(){
+    int a;
+    cin>>a;
+    print(a);//function call
+    
+}
