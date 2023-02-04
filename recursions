@@ -30,3 +30,24 @@ int main(){
     print(a);//function call
     
 }
+==============================================================================================================================================================================
+
+COUNTNG DIGITS IN A NUMBER
+
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+//counting digits in a digit
+int cnt(int x){
+    if (x==0) return 0;
+    else return 1+cnt(x/10);
+    
+}
+int main() {
+    cout<<cnt(1234567);
+
+    return 0;
+}
+
+===================================================================================================================================================================
